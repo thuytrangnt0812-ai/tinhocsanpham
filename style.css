@@ -1,0 +1,53 @@
+/* Tailwind config */
+:root {
+    --primary: #8B7355;
+    --primary-soft: #D2C4B5;
+    --secondary: #7A9CA5;
+    --background-light: #FDFBF7;
+    --text-main: #3E3832;
+    --text-muted: #6B635B;
+    --accent-gold: #C5A065;
+}
+
+body {
+    min-height: max(884px, 100dvh);
+}
+
+/* Icons */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+
+/* Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    scrollbar-width: none;
+}
+
+/* Fonts */
+.font-display {
+    font-family: 'Newsreader', serif;
+}
+.font-sans {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom colors for Tailwind-like usage */
+.bg-background-light {
+    background-color: var(--background-light);
+}
+.text-text-main {
+    color: var(--text-main);
+}
+.text-text-muted {
+    color: var(--text-muted);
+}
+.text-primary {
+    color: var(--primary);
+}
